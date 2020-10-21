@@ -8,7 +8,7 @@ headers = {  'Authorization': 'Bearer your API Key'} #You can get your free API 
 # Select API
 url = 'https://www.ai-compare.com/v1/pretrained/vision/face_detection'
 
-# Select providers, and objects to detect
+# Select providers
 payload = {'providers': '[\'google_cloud\', \'cognitives_service\', \'aws\']'}
 
 # Select file to test
